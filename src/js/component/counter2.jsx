@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Clock2 = () => {
+const SecondsCounter = () => {
   const [seconds, setSeconds] = useState(0);
   
 
@@ -21,4 +21,4 @@ const Clock2 = () => {
   );
 };
 
-export default Clock2;
+export default SecondsCounter;

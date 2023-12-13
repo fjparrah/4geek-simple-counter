@@ -1,5 +1,5 @@
 import React from "react";
-import Clock2 from "./counter2";
+import SecondsCounters from "./counter";
 
 
 //create your first component
@@ -8,7 +8,7 @@ const Home = () => {
 		<div className="text-center">
 			<h1 className="text-center mt-5">CONTADOR</h1>
           <>
-			<Clock2/>				
+			<SecondsCounters/>				
 		  </>
 		</div>
 	);
