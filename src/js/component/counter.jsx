@@ -24,7 +24,7 @@ const SecondsCounters = () => {
 
   return (
     <div>
-      <h1>{digits.join('')}</h1>
+      <h1 className='display-1'>{digits.join('')}</h1>
     </div>
   );
 };
